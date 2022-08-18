@@ -19,6 +19,14 @@ namespace AmazingChatBot
         public static string GachaMinigame1Pull10Name { get; private set; }
         public static bool GachaMinigame1Enabled { get; private set; }
         public static bool UnitConverterEnabled { get; private set; }
+        public static bool UnitConverterFeetEnabled { get; private set; }
+        public static bool UnitConverterInchesEnabled { get; private set; }
+        public static bool UnitConverterMilesEnabled { get; private set; }
+        public static bool UnitConverterFahrenheitEnabled { get; private set; }
+        public static bool UnitConverterCelsiusEnabled { get; private set; }
+        public static bool UnitConverterKilometersEnabled { get; private set; }
+        public static bool UnitConverterMetersEnabled { get; private set; }
+
 
         public static ConnectionManager ConnectionManager;
         public static GachaMinigame GachaMinigame;
@@ -62,6 +70,13 @@ namespace AmazingChatBot
             GachaMinigame1Pull10Name = obj.Value<string>("gachaMinigame1Pull10Name");
             GachaMinigame1Enabled = obj.Value<bool>("gachaMinigame1Enabled");
             UnitConverterEnabled = obj.Value<bool>("unitConverterEnabled");
+            UnitConverterFeetEnabled = obj.Value<bool>("unitConverterFeetEnabled");
+            UnitConverterInchesEnabled = obj.Value<bool>("unitConverterInchesEnabled");
+            UnitConverterMilesEnabled = obj.Value<bool>("unitConverterMilesEnabled");
+            UnitConverterFahrenheitEnabled = obj.Value<bool>("unitConverterFahrenheitEnabled");
+            UnitConverterCelsiusEnabled = obj.Value<bool>("unitConverterCelsiusEnabled");
+            UnitConverterKilometersEnabled = obj.Value<bool>("unitConverterKilometersEnabled");
+            UnitConverterMetersEnabled = obj.Value<bool>("unitConverterMetersEnabled"); 
         }
 
         private static async Task LoadUsersData()

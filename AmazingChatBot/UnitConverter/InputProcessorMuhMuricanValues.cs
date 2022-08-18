@@ -6,13 +6,16 @@ namespace AmazingChatBot.UnitConverter
 {
     public class InputProcessorMuhMuricanValues : InputProcessor
     {
-        public InputProcessorMuhMuricanValues(string[] units, Func<decimal, decimal> mathProcessor, Func<decimal, decimal, string> responseProcessor)
-            : base(units, mathProcessor, responseProcessor)
+        public InputProcessorMuhMuricanValues(string[] units, Func<decimal, decimal> mathProcessor, Func<decimal, decimal, string> responseProcessor, bool enabled)
+            : base(units, mathProcessor, responseProcessor, enabled)
         {
         }
 
         public override (string message, int index) ProcessString(Match input, Match nextInput = null)
         {
+            if (!_enabled)
+                return ("", 1);
+
             decimal? value = null;
             try { value = decimal.Parse(input.Groups[1].Value.Replace(',', '.')); }
             catch { value = null; }
