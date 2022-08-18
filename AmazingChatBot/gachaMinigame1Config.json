@@ -1,0 +1,114 @@
+﻿{
+  "players": [],
+  "itemList": [
+    {
+      "tier": 6,
+      "dropChance": 0.1,
+      "valueRanges": { "min": 0.0, "max": 0.0 },      
+      "items": {
+        "weapons": ["TIMMIE ★★★★★★"],
+        "characters": []
+      }
+    },
+    {
+      "tier": 5,
+      "dropChance": 0.6,
+      "valueRanges": { "min": 0.1, "max": 0.6 },
+      "items": {
+        "weapons": [
+          "AMOS' BOW ★★★★★",
+          "SKYWARD HARP ★★★★★",
+          "LOST PRAYER TO THE SACRED WINDS ★★★★★",
+          "SKYWARD ATLAS ★★★★★",
+          "PRIMORDIAL JADE WINGED-SPEAR ★★★★★",
+          "SKYWARD SPINE ★★★★★",
+          "WOLF'S GRAVESTONE ★★★★★",
+          "SKYWARD PRIDE ★★★★★",
+          "SKYWARD BLADE ★★★★★",
+          "AQUILA FAVONIA ★★★★★"
+        ],
+        "characters": [
+          "KEQING ★★★★★",
+          "MONA ★★★★★",
+          "QIQI ★★★★★",
+          "DILUC ★★★★★",
+          "JEAN ★★★★★",
+          "VENTI ★★★★★",
+          "KLEE ★★★★★",
+          "TARTAGLIA ★★★★★",
+          "ZHONGLI ★★★★★",
+          "ALBEDO ★★★★★",
+          "GANYU ★★★★★"
+        ]
+      }
+    },
+    {
+      "tier": 4,
+      "dropChance": 5.1,
+      "valueRanges": { "min": 0.7, "max": 5.8 },
+      "items": {
+        "weapons": [
+          "Rust ★★★★",
+          "Sacrificial Bow ★★★★",
+          "The Stringless ★★★★",
+          "Favonius Warbow ★★★★",
+          "Eye of Perception ★★★★",
+          "Sacrificial Fragments ★★★★",
+          "The Widsith ★★★★",
+          "Favonius Codex ★★★★",
+          "Favonius Lance ★★★★",
+          "Dragon's Bane ★★★★",
+          "Rainslasher ★★★★",
+          "Sacrificial Greatsword ★★★★",
+          "The Bell ★★★★",
+          "Favonius Greatsword ★★★★",
+          "Lion's Roar ★★★★",
+          "Sacrificial Sword ★★★★",
+          "The Flute ★★★★",
+          "Favonius Sword ★★★★"
+        ],
+        "characters": [
+          "Xinyan ★★★★",
+          "Sucrose ★★★★",
+          "Diona ★★★★",
+          "Chongyun ★★★★",
+          "Noelle ★★★★",
+          "Bennett ★★★★",
+          "Fischl ★★★★",
+          "Ningguang ★★★★",
+          "Xingqiu ★★★★",
+          "Beidou ★★★★",
+          "Xiangling ★★★★",
+          "Amber ★★★★",
+          "Razor ★★★★",
+          "Kaeya ★★★★",
+          "Barbara ★★★★",
+          "Lisa ★★★★"
+        ]
+      }
+    },
+    {
+      "tier": 3,
+      "dropChance": 94.2,     
+      "valueRanges": { "min": 5.9, "max": 100 },
+      "items": {
+        "weapons": [
+          "Slingshot ★★★",
+          "Sharpsooter's Oath ★★★",
+          "Raven Bow ★★★",
+          "Emerald Orb ★★★",
+          "Thrilling Tales of Dragon Slayers ★★★",
+          "Magic Guide ★★★",
+          "Black Tassel ★★★",
+          "Debate Club ★★★",
+          "Bloodtainted Greatsword ★★★",
+          "Ferrous Shadow ★★★",
+          "Skyrider Sword ★★★",
+          "Harbinger of Dawn ★★★",
+          "Cool Steel ★★★"
+        ],
+        "characters": []
+      }
+    }
+  ]
+}

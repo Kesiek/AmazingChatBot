@@ -1,0 +1,11 @@
+﻿{
+	"channelName": "",
+	"channelId": "",
+	"botAccountName": "",
+	"botAuthToken": "",
+	"botAccessToken": "",
+	"gachaMinigame1Pull1Name": "1x gacha pull",
+	"gachaMinigame1Pull10Name": "10x gacha pull",
+	"gachaMinigame1Enabled": true,
+	"unitConverterEnabled": true
+}
